@@ -18,9 +18,8 @@ const App = () => {
 <button onClick={handleChange}Add shape</button>
         </div>
       <div id="shapes-holder">
-        {shapeList.map((ele,idx)=>ele ==='square' ? <div className='square'>{idx}
-        </div> : <div className= 'circle'>{idx}
-       </div>)}
+        {shapeList.map((ele,idx)=>ele === 'square' ? <div className='square'>{idx}
+        </div> : <div className= 'circle'>{idx}</div>)}
       </div>
     </div>
   )
