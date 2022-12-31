@@ -15,7 +15,7 @@ const App = () => {
     <option value="square">Square</option>
  <option value="circle">Circle</option>
 </select>
-<button onClick={handleChange}Add shape</button>
+<button onClick={handleChange}Addshape</button>
         
 
       </div>
