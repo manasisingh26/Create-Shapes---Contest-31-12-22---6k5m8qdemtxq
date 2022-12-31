@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react'
+import React,{useEffect,useState} from 'react'
 import '../styles/App.css';
 const App = () => {
   const [value,setValue]= useState('square')
@@ -11,8 +11,7 @@ const App = () => {
   return (
     <div id="main">
       <div id="shape-creator">
-    <select onChange={(e)=>
-  {setValue(e.target.value) }}>
+    <select onChange={(e)=> {setValue(e.target.value) }}>
     <option value="square">Square</option>
  <option value="circle">Circle</option>
 </select>
